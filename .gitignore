@@ -1,0 +1,12 @@
+# python
+__pycache__/
+*.py[cod]
+
+# IDE
+.idea/
+.vscode/
+.history/
+
+# etc
+.swp
+
