@@ -21,7 +21,7 @@
 1. 도메인 요구사항을 읽고 어떤 내용의 작업을 진행하면 되는지 확인해 주세요.
 2. 기술적 요구사항에서 구현 시 기술적으로 어떤 점을 고려하면 되는지 확인해 주세요.
 3. 과제 repository에서 자신의 github으로 fork 해 주세요.
-4. 과제를 진행합니다.
+4. 과제는 DB와 Model 설계, API를 개발하시면 됩니다.
 5. 작업이 완료되면 이메일로 개인 repository 링크를 첨부해 회신해 주세요.
 
 ***
@@ -43,7 +43,7 @@ Google의 주소록(https://contacts.google.com)을 참고해 주시면 이해�
     - 정렬
       - 기본 출력은 등록 순서대로 정렬합니다.
       - 이름, 이메일, 전화번호 중 하나를 선택하여 정렬할 수 있습니다.
-      - 필드를 클릭하면 오름차순/내림차순/해제 순으로 정렬합니다.
+      - 정렬은 오름차순/내림차순/해제 순입니다.
     - 페이징
       - 스크롤 페이징 처리가 되도록합니다.
   - 연락처 (상세보기/입력)
@@ -72,14 +72,14 @@ Google의 주소록(https://contacts.google.com)을 참고해 주시면 이해�
   - python : 3.9.3
   - django : 3.2.20
   - django-rest-framework : 3.14.0
-  - mysql
+  - MySQL or SQLite (택1)
   - 기타 필요한 패키지 사용 가능하며, `requirements.txt`에 추가 
 - Backend
   - django ORM의 model을 이용해 주세요.
   - 디렉터리 구조는 본인이 생각하는 Best Practice로 구성해 주세요.
   - **RESTfull** 하게 API를 설계해 주세요.
 - Database
-  - DB는 MySQL로 사용해 주세요.
+  - DB는 MySQL 또는 SQLite를 사용해 주세요.
   - `/db` 디렉터리에 설계한 스키마 및 데이터를 정의해 주세요
     - schema.sql : DB 스키마를 CREATE 문으로 작성해 주세요
     - data.sql : 기본 데이터가 필요하다면 INSERT 문으로 넣어주세요
