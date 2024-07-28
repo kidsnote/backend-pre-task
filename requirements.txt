@@ -2,4 +2,7 @@ Django==3.2.20
 django-mysql==4.11.0
 mysqlclient==2.2.0
 djangorestframework==3.14.0
+drf_spectacular==0.26.5
+black==23.11.0
+djangorestframework-simplejwt==5.3.1
 
