@@ -69,9 +69,9 @@ Google의 주소록(https://contacts.google.com)을 참고해 주시면 이해�
 기술적 요구사항은 다음과 같습니다.
 ```
 - 환경
-  - python : 3.9.3
-  - django : 3.2.20
-  - django-rest-framework : 3.14.0
+  - python : 3.10 이상
+  - django : 4.2 이상
+  - django-rest-framework : 3.14 이상
   - MySQL or SQLite (택1)
   - 기타 필요한 패키지 사용 가능하며, `requirements.txt`에 추가 
 - Backend
