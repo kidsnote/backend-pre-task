@@ -43,9 +43,3 @@ repos:
     hooks:
       - id: poetry-check
       - id: poetry-lock
-  - repo: https://github.com/python-poetry/poetry-plugin-export
-    rev: 1.8.0
-    hooks:
-    - id: poetry-export
-      name: Export Package To Requirements.txt
-      args: ["-f", "requirements.txt", "-o", "requirements.txt", "--without-hashes"]
