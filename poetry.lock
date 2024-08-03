@@ -151,6 +151,21 @@ argon2 = ["argon2-cffi (>=19.1.0)"]
 bcrypt = ["bcrypt"]
 
 [[package]]
+name = "django-debug-toolbar"
+version = "4.4.6"
+description = "A configurable set of panels that display various debug information about the current request/response."
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "django_debug_toolbar-4.4.6-py3-none-any.whl", hash = "sha256:3beb671c9ec44ffb817fad2780667f172bd1c067dbcabad6268ce39a81335f45"},
+    {file = "django_debug_toolbar-4.4.6.tar.gz", hash = "sha256:36e421cb908c2f0675e07f9f41e3d1d8618dc386392ec82d23bcfcd5d29c7044"},
+]
+
+[package.dependencies]
+django = ">=4.2.9"
+sqlparse = ">=0.2"
+
+[[package]]
 name = "django-mysql"
 version = "4.14.0"
 description = "Django-MySQL extends Django's built-in MySQL and MariaDB support their specific features not available on other databases."
@@ -790,4 +805,4 @@ test = ["covdefaults (>=2.3)", "coverage (>=7.2.7)", "coverage-enable-subprocess
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "c63ab7d0beadd13306051eb7f110f90fceb6721dc23884117f7a2e58318b4e6c"
+content-hash = "85123135181b6cf7eeca87d74aa06f332c5e15e2f31d5e371464ab2e1e10f384"
