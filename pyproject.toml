@@ -22,7 +22,6 @@ pytest-cov = "^5.0.0"
 
 [tool.poetry.group.lint.dependencies]
 flake8 = "^7.1.0"
-black = "^24.8.0"
 ruff = "^0.5.6"
 pyright = "^1.1.374"
 pre-commit = "^3.8.0"
