@@ -1,0 +1,29 @@
+{
+  "include": [
+    "backend"
+  ],
+  "exclude": [
+    "**/node_modules",
+    "**/__pycache__",
+    "backend/experimental",
+    "backend/typestubs"
+  ],
+  "typingsPath": "backend/typestubs",
+  "reportMissingImports": false,
+  "reportMissingModuleSource": false,
+  "reportMissingTypeStubs": false,
+  "pythonVersion": "3.11",
+  "pythonPlatform": "Windows",
+  "executionEnvironments": [
+    {
+      "root": "backend/sdk",
+      "pythonVersion": "3.0",
+      "extraPaths": [
+        "backend/backend"
+      ]
+    },
+    {
+      "root": "backend"
+    }
+  ]
+}
