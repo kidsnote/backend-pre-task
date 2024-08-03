@@ -10,6 +10,7 @@ python = "^3.11"
 django = ">=4.2,<5.0"
 djangorestframework = ">=3.14,<4.0"
 django-mysql = "^4.14.0"
+drf-spectacular = "^0.27.2"
 
 
 [tool.poetry.group.test.dependencies]
@@ -26,9 +27,6 @@ ruff = "^0.5.6"
 pyright = "^1.1.374"
 pre-commit = "^3.8.0"
 
-
-[tool.poetry.group.dev.dependencies]
-poetry-plugin-export = "^1.8.0"
 
 [build-system]
 requires = ["poetry-core"]
