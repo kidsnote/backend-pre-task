@@ -1,0 +1,32 @@
+[
+    {
+        "model": "contact.contactphonenumber",
+        "pk": 1,
+        "fields": {"label": 2, "contact": 1, "phone_number": "+821022223333"}
+    },
+    {
+        "model": "contact.contactphonenumber",
+        "pk": 2,
+        "fields": {"label": 2, "contact": 2, "phone_number": "+821022223333"}
+    },
+    {
+        "model": "contact.contactphonenumber",
+        "pk": 3,
+        "fields": {"label": 2, "contact": 3, "phone_number": "+821011112222"}
+    },
+    {
+        "model": "contact.contactphonenumber",
+        "pk": 4,
+        "fields": {"label": 2, "contact": 4, "phone_number": "+821011112222"}
+    },
+    {
+        "model": "contact.contactphonenumber",
+        "pk": 5,
+        "fields": {"label": 2, "contact": 5, "phone_number": "+821011112222"}
+    },
+    {
+        "model": "contact.contactphonenumber",
+        "pk": 6,
+        "fields": {"label": 2, "contact": 6, "phone_number": "+821011112222"}
+    }
+]

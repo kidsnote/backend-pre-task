@@ -1,0 +1,74 @@
+[
+    {
+        "model": "contact.contact",
+        "pk": 1,
+        "fields": {
+            "user": 1,
+            "profile_photo": "https://avatars.githubusercontent.com/u/7259599?v=4",
+            "name": "Alex.Ferguson",
+            "company_name": "Manchester United",
+            "company_position": "Sir",
+            "memo": ""
+        }
+    },
+    {
+        "model": "contact.contact",
+        "pk": 2,
+        "fields": {
+            "user": 1,
+            "profile_photo": "https://avatars.githubusercontent.com/u/7259599?v=4",
+            "name": "Bentancur.Rodrigo",
+            "company_name": "Tottnam Hospur",
+            "company_position": "",
+            "memo": "midfielder"
+        }
+    },
+    {
+        "model": "contact.contact",
+        "pk": 3,
+        "fields": {
+            "user": 1,
+            "profile_photo": "https://avatars.githubusercontent.com/u/7259599?v=4",
+            "name": "Cristiano.Ronaldo",
+            "company_name": "MidEast",
+            "company_position": "FreeRole",
+            "memo": ""
+        }
+    },
+    {
+        "model": "contact.contact",
+        "pk": 4,
+        "fields": {
+            "user": 1,
+            "profile_photo": "https://avatars.githubusercontent.com/u/7259599?v=4",
+            "name": "Didier.Drogba",
+            "company_name": "Chelsea",
+            "company_position": "Striker",
+            "memo": ""
+        }
+    },
+    {
+        "model": "contact.contact",
+        "pk": 5,
+        "fields": {
+            "user": 1,
+            "profile_photo": "https://avatars.githubusercontent.com/u/7259599?v=4",
+            "name": "Eden.Azar",
+            "company_name": "Real Madrid",
+            "company_position": "Winger",
+            "memo": ""
+        }
+    },
+    {
+        "model": "contact.contact",
+        "pk": 6,
+        "fields": {
+            "user": 1,
+            "profile_photo": "https://avatars.githubusercontent.com/u/7259599?v=4",
+            "name": "Heungmin Son",
+            "company_name": "Tottnam Hosper",
+            "company_position": "Legend",
+            "memo": ""
+        }
+    }
+]

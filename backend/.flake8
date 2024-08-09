@@ -1,0 +1,16 @@
+[flake8]
+exclude =
+    .git,
+    .github,
+    __pycache__,
+    build,
+    dist,
+    venv/*,
+    */migrations/*,
+    */management/commands/*,
+    */settings.py,
+    */manage.py,
+per-file-ignores =
+    */tests.py: F401
+max-complexity = 15
+max-line-length = 120

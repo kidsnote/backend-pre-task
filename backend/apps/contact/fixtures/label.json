@@ -1,0 +1,42 @@
+[
+    {
+        "model": "contact.label",
+        "pk": 1,
+        "fields": {
+            "user": 1,
+            "name": "Home"
+        }
+    },
+    {
+        "model": "contact.label",
+        "pk": 2,
+        "fields": {
+            "user": 1,
+            "name": "Personal"
+        }
+    },
+    {
+        "model": "contact.label",
+        "pk": 3,
+        "fields": {
+            "user": 1,
+            "name": "Birthday"
+        }
+    },
+    {
+        "model": "contact.label",
+        "pk": 4,
+        "fields": {
+            "user": 1,
+            "name": "Homepage"
+        }
+    },
+    {
+        "model": "contact.label",
+        "pk": 5,
+        "fields": {
+            "user": 1,
+            "name": "Company"
+        }
+    }
+]

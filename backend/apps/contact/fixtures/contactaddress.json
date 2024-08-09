@@ -1,0 +1,32 @@
+[
+    {
+        "model": "contact.contactaddress",
+        "pk": 1,
+        "fields": {"label": 1, "contact": 1, "address": "England"}
+    },
+    {
+        "model": "contact.contactaddress",
+        "pk": 2,
+        "fields": {"label": 1, "contact": 2, "address": "England"}
+    },
+    {
+        "model": "contact.contactaddress",
+        "pk": 3,
+        "fields": {"label": 1, "contact": 3, "address": "MidEast"}
+    },
+    {
+        "model": "contact.contactaddress",
+        "pk": 4,
+        "fields": {"label": 1, "contact": 4, "address": "France"}
+    },
+    {
+        "model": "contact.contactaddress",
+        "pk": 5,
+        "fields": {"label": 1, "contact": 5, "address": "France"}
+    },
+    {
+        "model": "contact.contactaddress",
+        "pk": 6,
+        "fields": {"label": 1, "contact": 6, "address": "Korea"}
+    }
+]

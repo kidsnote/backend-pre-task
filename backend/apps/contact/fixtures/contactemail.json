@@ -1,0 +1,32 @@
+[
+    {
+        "model": "contact.contactemail",
+        "pk": 1,
+        "fields": {"label": 2, "contact": 1, "email": "alex@example.com"}
+    },
+    {
+        "model": "contact.contactemail",
+        "pk": 2,
+        "fields": {"label": 2, "contact": 2, "email": "bruno@example.com"}
+    },
+    {
+        "model": "contact.contactemail",
+        "pk": 3,
+        "fields": {"label": 2, "contact": 3, "email": "cristiano@example.com"}
+    },
+    {
+        "model": "contact.contactemail",
+        "pk": 4,
+        "fields": {"label": 2, "contact": 4, "email": "didier@example.com"}
+    },
+    {
+        "model": "contact.contactemail",
+        "pk": 5,
+        "fields": {"label": 2, "contact": 5, "email": "eden@example.com"}
+    },
+    {
+        "model": "contact.contactemail",
+        "pk": 6,
+        "fields": {"label": 2, "contact": 6, "email": "sonny@example.com"}
+    }
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "model": "contact.contactimportantdate",
+        "pk": 1,
+        "fields": {"label": 3, "contact": 1, "important_date": "2024-08-09"}
+    },
+    {
+        "model": "contact.contactimportantdate",
+        "pk": 2,
+        "fields": {"label": 3, "contact": 2, "important_date": "2024-08-09"}
+    },
+    {
+        "model": "contact.contactimportantdate",
+        "pk": 3,
+        "fields": {"label": 3, "contact": 3, "important_date": "2024-08-09"}
+    },
+    {
+        "model": "contact.contactimportantdate",
+        "pk": 4,
+        "fields": {"label": 3, "contact": 4, "important_date": "2024-08-09"}
+    },
+    {
+        "model": "contact.contactimportantdate",
+        "pk": 5,
+        "fields": {"label": 3, "contact": 5, "important_date": "2024-08-09"}
+    },
+    {
+        "model": "contact.contactimportantdate",
+        "pk": 6,
+        "fields": {"label": 3, "contact": 6, "important_date": "2024-08-09"}
+    }
+]
